@@ -62,7 +62,7 @@ app.use('/books',booksRouter);
 app.use('/login',loginRouter);
 app.use('/signup',signupRouter);
 
-mongoose.connect("mongodb+srv://shilsonp:Hero@800@cluster0-1hke2.mongodb.net/test?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://shilsonp:Hero800@cluster0-1hke2.mongodb.net/test?retryWrites=true&w=majority");
 
 app.set('views','./src/views');
 app.set('view engine','ejs');
